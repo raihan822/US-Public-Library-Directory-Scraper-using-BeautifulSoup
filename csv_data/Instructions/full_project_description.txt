@@ -1,0 +1,15 @@
+📌 Task 1: Scrape LibraryTechnology.org Directory
+Scrape all listings from this URL:
+ https://librarytechnology.org/libraries/uspublic/
+
+Required Data Fields per Library:-----------------
+Library Name
+Website URL
+Root Domain (extracted from Website URL)
+City
+State (2-letter abbreviation)
+Zip Code (if available)
+Phone Number
+Library Type (e.g., Public, County, Regional)
+Library System (if applicable)
+Output the results into a structured CSV or Google Sheet.
