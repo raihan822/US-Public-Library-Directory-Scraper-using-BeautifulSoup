@@ -38,3 +38,48 @@ This project is a Python-based web scraper that extracts detailed information ab
 ```bash
 git clone https://github.com/raihan822/US-Public-Library-Directory-Scraper-using-BeautifulSoup.git
 cd US-Public-Library-Directory-Scraper-using-BeautifulSoup
+```
+
+
+
+
+### 2. Install Dependencies
+
+```bash
+pip install requests
+pip install beautifulsoup4
+pip install pandas
+```
+
+### 3. Run the Scraper
+
+```bash
+python _2_scrape_links_brandon_Bs.py
+python _3_scrape_data_brandon_Bs.py
+```
+
+You’ll find the output file `link_out_1.csv`, `data_out_1.csv` in `/csv_data` directory.
+
+## ✅ Optional: Export to Google Sheets
+
+To export results to Google Sheets:
+
+* Set up the [Google Sheets API](https://developers.google.com/sheets/api/quickstart/python)
+* Enable and configure your `credentials.json`
+* Modify the script to push data to your chosen spreadsheet
+
+---
+
+## 📌 Source
+
+Data sourced from: [https://librarytechnology.org/libraries/uspublic/](https://librarytechnology.org/libraries/uspublic/)
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+⭐ Star this repo if you found it useful!
+
+```
