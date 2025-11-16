@@ -29,7 +29,6 @@ This project is a Python-based web scraper that extracts detailed information ab
 ## 📁 Output
 
 - `us_public_libraries.csv` — structured file containing all scraped library data.
-- (Optional) Google Sheet output if enabled.
 
 ## 🚀 Getting Started
 
@@ -65,21 +64,12 @@ You’ll find the output file `link_out_1.csv`, `data_out_1.csv` in `/csv_data` 
 To export results to Google Sheets:
 
 * Set up the [Google Sheets API](https://developers.google.com/sheets/api/quickstart/python)
-* Enable and configure your `credentials.json`
-* Modify the script to push data to your chosen spreadsheet
+* Enable and configure `credentials.json`
+* Modify the script to push data to chosen spreadsheet
 
 ---
 
 ## 📌 Source
 
 Data sourced from: [https://librarytechnology.org/libraries/uspublic/](https://librarytechnology.org/libraries/uspublic/)
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-⭐ Star this repo if you found it useful!
-
 ```
